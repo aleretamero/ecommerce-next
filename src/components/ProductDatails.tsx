@@ -1,5 +1,3 @@
-// src/components/ProductDetails.tsx
-
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { Button, Col, Row } from 'reactstrap';

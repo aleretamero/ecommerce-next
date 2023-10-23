@@ -1,5 +1,3 @@
-// src/components/SuccessToast.tsx
-
 import { Button, Toast, ToastBody } from 'reactstrap';
 
 const SuccessToast = (props: {

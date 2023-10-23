@@ -22,7 +22,7 @@ export const CartContextProvider = (props: { children: ReactNode }) => {
     const storedCart = localStorage.getItem('shopping-cart');
 
     if (storedCart) {
-      setCart(JSON.parse(storedCart));
+      return JSON.parse(storedCart);
     }
   }, []);
 
@@ -33,7 +33,7 @@ export const CartContextProvider = (props: { children: ReactNode }) => {
   };
 
   const removeProduct = (productId: number) => {
-    const productIndex = cart.findIndex(product => product.id === productId);
+    const productIndex = cart.findIndex((product) => product.id === productId);
 
     if (productIndex !== -1) {
       const updatedCart = [...cart];

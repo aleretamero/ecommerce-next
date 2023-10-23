@@ -1,10 +1,10 @@
-// pages/cart.tsx
+import { NextPage } from 'next';
+import Head from 'next/head';
+
+import { Container } from 'reactstrap';
 
 import CartTotal from '@/components/CardTotal';
 import CartTable from '@/components/CartTable';
-import { NextPage } from 'next';
-import Head from 'next/head';
-import { Container } from 'reactstrap';
 
 const Cart: NextPage = () => {
   return (

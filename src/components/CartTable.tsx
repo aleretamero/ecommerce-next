@@ -1,5 +1,3 @@
-// src/components/CartTable.tsx
-
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { Button, Col, Row, Table } from 'reactstrap';
@@ -75,7 +73,7 @@ export default function CartTable() {
   useEffect(() => {
     const entriesList = cart.reduce((list, product) => {
       const entryIndex = list.findIndex(
-        entry => entry.product.id === product.id
+        (entry) => entry.product.id === product.id
       );
 
       if (entryIndex === -1) {
@@ -107,7 +105,7 @@ export default function CartTable() {
         </tr>
       </thead>
       <tbody>
-        {cartEntries.map(entry => (
+        {cartEntries.map((entry) => (
           <CartTableRow key={entry.product.id} entry={entry} />
         ))}
       </tbody>
