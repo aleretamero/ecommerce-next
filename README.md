@@ -4,7 +4,7 @@
 
 ## 💭 Descrição
 
-Este projeto representa um site de comércio eletrônico (E-Commerce) desenvolvido como parte do treinamento oferecido pelo curso da OneBitCode. O foco principal deste projeto é proporcionar uma oportunidade de aprimorar o conhecimento e as habilidades na utilização do framework Next.js, uma tecnologia amplamente adotada no desenvolvimento web moderno.
+Este projeto representa um site de comércio eletrônico (E-Commerce) desenvolvido como parte do treinamento oferecido pelo curso da OneBitCode. O foco principal deste projeto é proporcionar uma oportunidade de aprimorar o conhecimento e habilidades na utilização do framework Next.js, uma tecnologia amplamente adotada no desenvolvimento web moderno.
 
 ## 🧠 Funcionalidades
 
